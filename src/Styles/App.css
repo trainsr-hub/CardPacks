@@ -1,0 +1,84 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 1.7em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.main-content {
+  transition: opacity 0.8s ease, transform 0.8s ease;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.main-content.hide {
+  opacity: 0;
+  transform: var(--cardpack-effect);
+  pointer-events: none; /* tránh click vào khi ẩn */
+}
+
+.main-content.appear {
+  opacity: 1;
+  transform: translateY(-30px); /* bắt đầu cao hơn */
+  /* transition vẫn được áp dụng từ trạng thái trước đó */
+}
+
+.card-footer {
+  position: relative;
+  min-height: 40px; /* chiều cao đủ cho note khi button chưa hiện */
+}
+
+.card-note {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: var(--note-color);
+  z-index: 1; /* thấp hơn button */
+}
+
+.button-row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 2; /* cao hơn note */
+  pointer-events: auto; /* để click được */
+}
+
+.total-dict {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  max-width: 250px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff700;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 10000;
+  overflow-y: auto;
+  max-height: 90vh;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease;
+}
+
+.total-dict-list {
+  margin-top: 6px;
+}
+
+.total-dict-item {
+  margin-bottom: 4px;
+}

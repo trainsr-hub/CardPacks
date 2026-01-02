@@ -1,0 +1,91 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  background-color: #0d0d0d;
+  color: white;
+  font-family: sans-serif;
+  transition: filter 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  transform: scale(1.03);
+}
+
+.card-img-wrapper {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+}
+
+.card-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+
+.card-note {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+.button-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.card-button {
+  flex: 1;
+  padding: 8px 0;
+  border-radius: 10px;
+  border: 2px solid #ffe44e;
+  background-color: #1b1b1b; /* nền của button */
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffffff; /* text màu vàng */
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+
+.card-button::before {
+  content: "";
+  position: absolute;
+  top: -8px;    /* tràn ra ngoài */
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  background: url('') center/cover no-repeat;
+  pointer-events: none; /* để không chặn click */
+  opacity: 0.3;
+  z-index: 1;  /* nằm trên nút nhưng dưới text nếu cần nâng cao */
+}
+
+.card-button:hover {
+  background-color: #0f70d0;
+}
+
+.card-button-pin {
+
+}

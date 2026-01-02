@@ -1,0 +1,17 @@
+{
+  "Evol":
+    {
+      "cover": "/Icons/Icon/Evol.gif",
+      "": ""
+    },
+  "Labor":
+    {
+      "cover": "/Icons/Icon/Labor.gif",
+      "background": ""
+    },
+  "Task":
+    {
+      "cover": "/Icons/Icon/Default.png",
+      "background": ""
+    }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "Title": "Black Hole Pack",
+    "Note": "Revolution!",
+    "Cover": "/Packs/Black Hole Pack/Cover/BlackHole.png",
+    "Button": "/Packs/Black Hole Pack/ButtonTrim/BlackHole.png",
+    "Button_Frame": "",
+    "Animation": "/Packs/Black Hole Pack/HoverEffect/BlackHole.gif",
+    "Effect": "scale(0.001) rotate(-30deg) translateY(50px)",
+    "Intro": "/Packs/Black Hole Pack/Animation/BlackHole.mp4",
+    "Unpack": [
+      "1...7",
+      "Evol ~ 30%",
+      "Labor ~ 1%",
+      "Tarot ~ 0.3%"
+    ],
+    "Cards": 1
+  },
+  {
+    "Title": "Beta Pack",
+    "Note": "...",
+    "Cover": "",
+    "Button": "",
+    "Button_Frame": "",
+    "Animation": "",
+    "Effect": "",
+    "Intro": "",
+    "Guarantee": [
+      ""
+    ],
+    "Cards": 7,
+    "Unpack": [
+      "",
+      "",
+      ""
+    ]
+  }
+]
