@@ -17,6 +17,29 @@
     "Cards": 1
   },
   {
+    "Title": "Block Pack",
+    "Note": "Emperor Time!",
+    "Cover": "https://drive.google.com/thumbnail?id=1InGKW3a11BjD5gKAhp5w-imklleu0sXN&sz=s1024",
+    "Button": "/Packs/Black Hole Pack/ButtonTrim/BlackHole.png",
+    "Button_Frame": "",
+    "Animation": "/Packs/Black Hole Pack/HoverEffect/BlackHole.gif",
+    "Effect": "scale(0.001) rotate(-30deg) translateY(50px)",
+    "Intro": "/Packs/Black Hole Pack/Animation/BlackHole.mp4",
+    "Guarantee": [
+      "Block",
+      "2 Block ~ 15%",
+      "3 Block ~ 4%",
+      "Evol ~ 1.5%"
+    ],
+    "Cards": 1,
+    "Unpack": [
+      "1...252000 Seconds",
+      "1...7 ~ 20%",
+      "Block ~ 7%",
+      "Evol ~ 0.3%"
+    ]
+  },
+  {
     "Title": "Beta Pack",
     "Note": "...",
     "Cover": "",
